@@ -1,0 +1,18 @@
+ .pageSelect.el-popper.is-light{
+    background-color: rgb(3,2,2);
+    
+    .el-select-dropdown__item{
+      color: white;
+      
+    }
+    .el-select-dropdown__item.selected{
+      color:aqua;
+    }
+    .el-select-dropdown__item:hover{
+      background-color: rgba($color: #ffffff, $alpha: 0.5);
+    }
+  }
+ .pageSelect.el-popper.is-light .el-popper__arrow::before{
+    background-color: transparent;
+  }
+  
